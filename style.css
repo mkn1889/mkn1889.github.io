@@ -222,12 +222,11 @@ margin-right:32px;
   font-size:12px;
 }
 
-#info{
-  
-  font-family:verdana;
-  font-size:12px;
+.info{
+display:block;
+
 }
-.foot_title{
+#footer .title{
   display: inline-block;
     padding-right: 25px;
     border-right: 2px solid white;
@@ -236,13 +235,13 @@ margin-right:32px;
     font-weight: bold;
     color: white;
 }
-.foot_nav{
+#footer .nav{
   display: inline-block;
     padding-left: 25px;
 
 }
 
-.foot_nav span{
+#nav span{
   display: inline-block;
     padding: 20px 10px;
 
