@@ -222,34 +222,19 @@ margin-right:32px;
   font-size:12px;
 }
 
-.info{
-display:block;
+span .info{
 
-}
-#footer .title{
-  display: inline-block;
-    padding-right: 25px;
-    border-right: 2px solid white;
-    font-family: Georgia;
-    font-size: 16px;
-    font-weight: bold;
-    color: white;
-}
-#footer .nav{
-  display: inline-block;
-    padding-left: 25px;
-
+padding:15px;
+display:inline-block;
 }
 
-#nav span{
-  display: inline-block;
-    padding: 20px 10px;
-
-}
-.foot_nav a{
-
-    color: black;
+.mytimes{
+  display:inline block;
+  font-family:georgia;
+  font-size:16px;
+  font-weight:bold;
+  color:white;
 }
 .copright{
-  display: block;
+  padding-top:15px;
 }
