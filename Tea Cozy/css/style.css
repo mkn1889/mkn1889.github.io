@@ -9,11 +9,27 @@ background-color:black;
 
 
   #top_image{
+    display:flex;
+  margin-top: 69px;
     background-image:url("../resources/images/mission-background.jpg");
 height:700px;
 width:1200px;
+align-items:center;
+background-size:cover;
 margin:0 auto;
 }
+
+#mission{
+  background-color: black;
+  justify-content: center;
+  z-index: 0;
+  flex-direction: column;
+  width:1200px;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 22px;
+}
+
 
 #maincontainer .description, .title{
   width:1000px;
@@ -25,23 +41,21 @@ justify-content:center;
 
 }
 
-.description h4{
-  margin-top:-69px;
-}
+
 
 #header{
+  width:100%;
+  position:fixed;
+  z-index:1;
+  height:69px;
+  background-color:black;
+  border-bottom:1px solid seashell;
+align-items:center;
   display:flex;
   justify-content:center;
   flex-wrap:wrap;
-  background-color:black;
-  position:fixed;
-  height:69px;
-  border-bottom:1px solid seashell;
-  width:100%;
-  z-index:1;
-  align-items:center;
-margin-left:-8px;
-margin-top:-8px;
+  top:0px;
+
 
 }
 .logo{
@@ -59,15 +73,18 @@ margin-left:10px;
   text-align:right;
   flex-grow:1;
 margin-right:10px;
+
 }
 #nav span{
   display:inline-block;
   padding: 20px 10px;
+
 }
 
 #nav a{
   text-decoration:underline;
   color:seashell;
+
 
 }
 #top_image .title{
@@ -78,26 +95,51 @@ display:flex;
 justify:content:center;
   height:200px;
   width:300px;
+  margin:10px;
   display:inline-block;
 
 }
-.teaom{
-  display:inline-block;
-  margin-right:25px;
+.description h4{
+  margin-top:-60px;
+
+}
+
+#month{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+
+}
+#kindsoftea .title, .description{
+  margin-top:-30px;;
+
+}
+#kindsoftea{
+  height:700px;
+  width:1000px;
+  margin:auto;
+  padding-top:70px;
+  display:block;
 }
 .teaom .tea_name h4{
+  display:inline-block;
   margin-top:10px;
+
+}
+.tea_name{
+  padding:5px;
 }
 #location{
-  display:block;
+
   padding-top:70px;
   background-image:url("../resources/images/locations-background.jpg");
   height:500px;
-
-background-repeat:no-repeat;
 background-position:center;
+background-repeat:no-repeat;
 
+display:block;
 }
+
 
 #location .address{
   display:flex;
@@ -109,23 +151,32 @@ background-position:center;
   opacity:1;
   background-color:black;
 justify-content:center;
-
-
 }
-#add_contain{
 
-}
 #add_contain .address{
   display:flex;
   justify-content:center;
   flex-wrap:wrap;
 display:inline-block;
 margin-right:40px;
+
 }
 .address p{
+
   margin-top:40px;
 }
 
-#add_contain{
-  width:103%;
+#locations #add_contain{
+  margin:auto;
+  width:1100px;
+  padding-top:5px;
+}
+#copyright{
+margin-left:10px;
+  text-align:left;
+  padding-left:30px;
+}
+footer{
+
+  margin-left:10px;
 }
