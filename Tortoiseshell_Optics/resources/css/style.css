@@ -291,3 +291,33 @@ body{
   #header span{
     display:none;
   }
+  .products, .business-info{
+    flex-wrap:wrap;
+      justify-content:space-between;
+  }
+
+  .info.phil{
+    margin-top:3.77rem;
+
+  }
+  .info.appt{
+  margin-top:4rem;
+  }
+  .info-desc{
+    margin-top:1rem;
+    font-family:helvetica;
+    font-size:0.77rem;
+    width:100%;
+  }
+  .info .title{
+    margin:0 auto;
+    width:100%;
+
+  }
+footer p{
+  display:none;
+}
+footer img{
+  margin:0 auto;
+}
+}
