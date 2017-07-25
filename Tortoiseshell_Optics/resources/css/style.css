@@ -235,11 +235,9 @@ body{
   .headline{
     background-color:white;
     color:black;
-    margin:0 auto;
-    padding-top:1rem;
-    padding:bottom:1rem;
-    position:relative;
-    top:9rem;
+    margin:6rem -2rem; auto 0;
+    padding:0 1rem;
+text-align:center;
     width:100%;
 
   }
