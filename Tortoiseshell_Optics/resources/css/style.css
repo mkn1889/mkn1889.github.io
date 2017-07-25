@@ -49,6 +49,10 @@ width:100%;
   color:white;
 
 }
+.mobile-nav{
+  display:none;
+}
+
 nav ul{
   display:flex;
   align-items:center;
@@ -217,8 +221,7 @@ body{
 }
 
 .mobile-nav{
-  display:block;
-  text-align:center;
+  display:none;
 }
 
 .container footer{
