@@ -23,7 +23,7 @@ div{
     background-color:cadetblue;
     display:flex;
     align-items:center;
-  padding:1rem 2rem;
+  padding-top:0.5rem;
 
 }
 .company span{
@@ -32,14 +32,14 @@ div{
 .container{
   max-width:960px;
   margin:0 auto;
+  padding:1rem;
 
 }
-ul.container{
-  margin-right:-2rem;
-}
+
 .company img{
   height:1.5em;
   margin-right:1rem;
+  margin-left:4rem;
 }
 img{
   border-style:none;
@@ -101,7 +101,7 @@ right:-2rem;
 .products, .business-info{
   display:flex;
   justify-content:space-between;
-  margin:3rem 4rem 0 5rem;
+  margin:3rem 4rem 0 3rem;
 
 }
 
@@ -171,9 +171,10 @@ right:-2rem;
 footer{
   background-color:azure;
   color:black;
-  padding:4rem 0;
+padding:4rem;;
   margin-top:5rem;
-
+margin-left:4rem;
+margin-right:4rem;
 }
 
 footer img{
@@ -230,12 +231,13 @@ body{
 }
 @media only screen and (max-width:480px){
 .container{
+  padding:0;
   width:100%;
 }
   .headline{
     background-color:white;
     color:black;
-    margin:6rem -2rem; auto 0;
+    margin:6rem -2rem;
     padding:0 1rem;
 text-align:center;
     width:100%;
@@ -250,7 +252,9 @@ text-align:center;
       background-size:cover;
 
   }
-
+  .company img{
+  padding-bottom:1rem;
+margin-top:0.5rem; }
 
   .headline h1{
     font-family:helvetica;
@@ -283,6 +287,8 @@ text-align:center;
     text-align:center;
     justify-content:flex-end;
   }
+  .mobile-nav li{
+margin-top:-.5rem;}
   nav ul{
     display:none;
   }
@@ -292,6 +298,8 @@ text-align:center;
   .products, .business-info{
     flex-wrap:wrap;
       justify-content:space-between;
+      margin-left:auto;
+      margin-right:auto;
   }
 
   .info.phil{
@@ -303,12 +311,11 @@ text-align:center;
   }
   .info-desc{
     margin-top:1rem;
-    margin-right:0.5rem;
-    margin-left:1rem;
     font-family:helvetica;
     font-size:0.77rem;
-    width:95%;
+    width:80%;
   }
+  p{margin-left:7rem;  }
   .info .title{
 
     width:100%;
@@ -318,6 +325,13 @@ text-align:center;
   span.title{
     width:auto;
     text-align:center;
+  }
+  footer{
+    background-color:azure;
+    color:black;
+  margin:0 auto;
+    margin-top:5rem;
+
   }
 footer p{
   display:none;
