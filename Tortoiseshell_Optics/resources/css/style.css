@@ -18,7 +18,7 @@ body{
 div{
   display:block;
 }
-
+/*header*/
 #header{
     background-color:cadetblue;
     display:flex;
@@ -101,7 +101,7 @@ right:-2rem;
 .products, .business-info{
   display:flex;
   justify-content:space-between;
-  margin:3rem 6rem 0 6rem;
+  margin:3rem 4rem 0 5rem;
 
 }
 
@@ -228,7 +228,7 @@ body{
   width:100%;
 }
 }
-@media only screen and (max-width:470px){
+@media only screen and (max-width:480px){
 .container{
   width:100%;
 }
@@ -303,14 +303,21 @@ text-align:center;
   }
   .info-desc{
     margin-top:1rem;
+    margin-right:0.5rem;
+    margin-left:1rem;
     font-family:helvetica;
     font-size:0.77rem;
-    width:100%;
+    width:95%;
   }
   .info .title{
-    margin:0 auto;
-    width:100%;
 
+    width:100%;
+  margin:0 auto;
+
+  }
+  span.title{
+    width:auto;
+    text-align:center;
   }
 footer p{
   display:none;
