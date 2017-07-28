@@ -1,0 +1,342 @@
+html{
+  font-size:18px;
+  background-color:white
+  font-family:sans-serif;
+  line-height:1.15;
+
+}
+body{
+  font-family:helvetica, sans-serif;
+  line-height:1.4rem;
+  margin:0 auto;
+
+}
+.company{
+
+  color:white;
+}
+div{
+  display:block;
+}
+/*header*/
+#header{
+    background-color:cadetblue;
+    display:flex;
+    align-items:center;
+  padding-top:0.5rem;
+
+}
+.company span{
+  width:100%;
+}
+.container{
+  max-width:960px;
+  margin:0 auto;
+  padding:1rem;
+
+}
+
+.company img{
+  height:1.5em;
+  margin-right:1rem;
+  margin-left:4rem;
+}
+img{
+  border-style:none;
+}
+nav{
+width:100%;
+  color:white;
+
+}
+.mobile-nav{
+  display:none;
+}
+
+nav ul{
+  display:flex;
+  align-items:center;
+  justify-content:flex-end;
+  list-style:none;
+}
+li{
+  display:list-item;
+  margin-right:2rem;
+}
+.main-banner{
+  background:url("../images/glasses-bg.png");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+  height:30rem;
+  width:100%;
+}
+
+.headline{
+float:right;
+right:-2rem;
+  background-color:white;
+  color:black;
+  width:25rem;
+  padding:1.5rem 5rem;
+  position:relative;
+  top:10rem;
+
+}
+
+.headline h1{
+  font-size:2rem;
+  line-height:1.2;
+  margin:0.67em 0;
+  display:inline-block;
+  margin-top:2rem;
+  text-align:center;
+  font-weight:bold;
+}
+.container .headline {
+
+  justify-content:flex-end;
+}
+
+.products, .business-info{
+  display:flex;
+  justify-content:space-between;
+  margin:3rem 4rem 0 3rem;
+
+}
+
+.product{
+  height:8rem;
+  margin-bottom:3rem;
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+    width: 5rem;
+    height: 8rem;
+
+}
+.product-image{
+
+  height:8rem;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.description{
+  display:block;
+
+  color:black;
+  text-align:center;
+  padding:0.5rem;
+}
+
+.product.ruler img, .product.truck img{
+  width:5rem;
+}
+
+
+.product-image img{
+  width:3.5rem;
+}
+.info{
+  margin-right:5%;
+  margin-bottom:4rem;
+  margin-left:-5rem;
+  margin-right:-4rem;
+
+}
+.info .title{
+  font-size:1rem;
+  font-weight:bold;
+  display:block;
+  background-color:cadetblue;
+  color:white;
+  padding-top:0.5rem;
+  padding-bottom:0.5rem;
+  width:10rem;
+
+}
+
+.info-desc{
+  width:55%;
+}
+
+.p{
+  padding:1rem 0;
+}
+
+footer{
+  background-color:azure;
+  color:black;
+padding:4rem;;
+  margin-top:5rem;
+margin-left:4rem;
+margin-right:4rem;
+}
+
+footer img{
+  height:1.5rem;
+margin-right:1rem;
+margin-left:4rem;
+}
+footer .container{
+  text-align:left;
+  display:flex;
+  flex-direction:row;
+}
+@media only screen and (max-width:1024px){
+.container{
+  width:100%;
+}
+.main-banner{
+  height:18rem;
+  width:100%;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+}
+.headline{
+  float:right;
+  width:18rem;
+  font-weight:bold;
+  padding:0.75rem 3rem;
+
+  position:relative;
+  top:5rem;
+  right:2rem;
+
+}
+.headline h1{
+  font-size:1.33rem;
+  display:inline-block;
+  margin: 1rem 1rem;
+}
+  .product{
+    width:35%;
+  }
+body{
+  font-size:16px;
+}
+
+.mobile-nav{
+  display:none;
+}
+
+.container footer{
+  width:100%;
+}
+}
+@media only screen and (max-width:480px){
+.container{
+  padding:0;
+  width:100%;
+}
+  .headline{
+    background-color:white;
+    color:black;
+    margin:6rem -2rem;
+    padding:0 1rem;
+text-align:center;
+    width:100%;
+
+  }
+
+    .main-banner{
+      height:17rem;
+      width:100%;
+      background-repeat:no-repeat;
+      background-position:20%;
+      background-size:cover;
+
+  }
+  .company img{
+  padding-bottom:1rem;
+margin-top:0.5rem; }
+
+  .headline h1{
+    font-family:helvetica;
+    font-size:1rem;
+    font-weight:bold;
+    line-height:2rem;
+
+    margin:0 auto;
+  }
+
+  .products{
+    flex-direction:column;
+    margin-top:3.77rem;
+  }
+
+  .description{
+    font-size:0.77rem;
+  }
+  .product.ruler. .product.truck{
+    margin-top:1.54rem;
+  }
+  .product{
+
+    margin:0 auto;
+
+  }
+  .mobile-nav{
+
+    display:flex;
+    text-align:center;
+    justify-content:flex-end;
+  }
+  .mobile-nav li{
+margin-top:-.5rem;}
+  nav ul{
+    display:none;
+  }
+  #header span{
+    display:none;
+  }
+  .products, .business-info{
+    flex-wrap:wrap;
+      justify-content:space-between;
+      margin-left:auto;
+      margin-right:auto;
+  }
+
+  .info.phil{
+    margin-top:3.77rem;
+
+  }
+  .info.appt{
+  margin-top:4rem;
+  }
+  .info-desc{
+    margin-top:1rem;
+    font-family:helvetica;
+    font-size:0.77rem;
+    width:80%;
+  }
+  p{margin-left:7rem;  }
+  .info .title{
+
+    width:100%;
+  margin:0 auto;
+
+  }
+  span.title{
+    width:auto;
+    text-align:center;
+  }
+  footer{
+    background-color:azure;
+    color:black;
+  margin:0 auto;
+    margin-top:5rem;
+
+  }
+footer p{
+  display:none;
+}
+footer img{
+  margin:0 auto;
+}
+}
