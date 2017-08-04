@@ -1,0 +1,44 @@
+header{
+  height:64px;
+  background-color:white;
+
+align-items:center;
+}
+
+.logo img{
+  margin-left:24px;
+
+}
+.name-bold, .name-light span{
+  height:32px;
+
+}
+.name-bold{
+  font-weight:bold;
+}
+.name-light{
+  font-weight:lighter;
+}
+nav li{
+
+  padding-left:16px;
+  list-style: none;
+
+}
+nav{
+  padding-right:24px;
+float:right;
+}
+
+.logo, nav, nav li{
+  display:inline-block;
+}
+
+.F2_sections img{
+  margin:32px 24px;
+  width:60%;
+}
+.F2_sections{
+  background-color:#D5D5D5;
+  
+}
