@@ -7,7 +7,7 @@ display:inline-block;
 
 body{
   display:block;
-  margin:0;
+  margin:0px;
 }
 
 .site-container{
@@ -117,7 +117,7 @@ float:left;
 .section2{
   float:left;
   display:flex;
-
+clear:both;
 }
 
 /*section 2 under photo title*/
@@ -144,11 +144,12 @@ margin-bottom:32px;
 /*subtitle author*/
 .author{
   font-size:1.2rem;
+  padding-bottom:64px;
 }
 
 /*event list*/
 .newsfeed{
-  display:inline-flex;
+  display:flex;
   float:right;
   flex-direction:column;
   max-width:40%;
@@ -222,8 +223,41 @@ padding-top:16px;
 }
 
 .section3{
+  display:flex;
+  padding:32px 72px;
   clear:both;
+  background-color:#D8D8D8;
+  flex-direction:column;
+  align-items:center;
+}
+
+.courses-display{
+  display:flex;
+  flex-flow: row wrap;
+  justify-content:center;
+}
+.courses{
+width:30%;
+margin:16px 16px;
+background-color:white;}
+
+.courses-img img{
+  height:auto;
+  width:100%;
 }
 
 
+.courses-word{
+  text-transform:uppercase;
+}
+
+.courses-desc{
+  padding-left:16px;
+}
+
+.courses-word p, .courses-names p{
+  font-size:1.3rem;
+  padding-bottom:8px;
+
+}
 }
