@@ -413,7 +413,7 @@ border:0;
 }
 @media only screen and (max-width:844px){
   .news-img-mobile{
-    display:block;
+    width:100%;
     margin-bottom:16px;
   }
 }
@@ -431,4 +431,5 @@ border:0;
   .exhibitfeed{
     display:none;
   }
+
 }
