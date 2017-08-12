@@ -177,7 +177,7 @@ color:#4A4A4A;
   max-width:40%;
   border-left: 1px solid #D8D8D8;
 padding-top:15px;
-width:523px;
+width:100%;
 }
 
 .exhibitfeed{
@@ -330,27 +330,105 @@ footer{
   align-items:center;
   border-top:1px solid #D8D8D8;
 }
-@media (max-width: 844px) {
+
+@media only screen and (max-width: 844px) {
+  .section1, .section4{
+    flex-direction:column;
+    padding:0;
+    margin:0;
+
+  }
+  .section1 .main-imgs, .section2 .main-imgs, .section4 .main-imgs{
+    width:100%;
+    margin:0;
+    padding:0;
+    height:auto;
+    overflow:hidden;
+  }
+  .section1 .main-imgs img, .section2 .main-imgs img, .section4 .main-imgs img{
+    max-width:100%;
+    padding:0;
+  }
+  .caption{
+    padding:32px 16px;
+    margin:0;
+    width:auto;
+    max-width:100%;
+  }
+}
+
+
+@media only screen and (max-width: 844px) {
   .logo-name1, .logo-name2 {
     display: none;
   }
-}
-@media (max-width: 844px){
-.section1 .main-imgs, .section2 .main-imgs, .main-imgs img, .caption{
 
+}
+
+
+@media only screen and (max-width:844px){
+  .section2{
     width:100%;
+    flex-direction:column;
     padding:0;
 
   }
+  .sec2-title h1{
+    font-size:2rem;
+    padding-top:32px;
+    line-height:4rem;
+  }
+
 }
-@media (max-width:844px){
-  .caption{
-    max-width:80%;
-    padding-bottom:35px;
+
+@media only screen and (max-width:844px){
+  .newsfeed{
+    max-width:100%;
+    width:100%;
+    padding:16px;
+    margin:0;
   }
 }
-@media (max-width:844px){
-  .section2{
+
+
+
+@media only screen and (max-width:844px){
+  .news-img{
+    display:none;
+  }
+}
+
+@media only screen and (max-width:844px){
+  .news-story, .news-story3, .news-img-mobile{
+    display:flex;
+    align-items:center;
+    padding-bottom:16px;
+    background-color:transparent;
+padding:0;
+margin:0;
+border:0;
+    width:100%;
     flex-direction:column;
+  }
+}
+@media only screen and (max-width:844px){
+  .news-img-mobile{
+    display:block;
+    margin-bottom:16px;
+  }
+}
+@media only screen and (max-width:844px){
+.news-story .captn, .news-story3 .captn{
+  padding-left:16px;
+}
+}
+
+@media only screen and (max-width:844px){
+  .section4{
+    width:100%;
+    padding:32px 0px;
+  }
+  .exhibitfeed{
+    display:none;
   }
 }
