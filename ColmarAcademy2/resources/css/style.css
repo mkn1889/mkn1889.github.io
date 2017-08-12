@@ -392,12 +392,19 @@ footer{
 
 
 
+
+
 @media only screen and (max-width:844px){
   .news-img{
     display:none;
   }
 }
 
+@media only screen and (max-width:1024px){
+.news-img-mobile{
+  display:none;
+}
+}
 @media only screen and (max-width:844px){
   .news-story, .news-story3, .news-img-mobile{
     display:flex;
