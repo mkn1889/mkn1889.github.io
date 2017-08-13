@@ -185,8 +185,6 @@ width:100%;
   float:right;
   flex-direction:column;
   max-width:40%;
-
-
 padding-left:24px;
 width:523px;
 }
@@ -200,13 +198,6 @@ width:523px;
   align-items:center;
 }
 
-.exhibit-story{
-  display:flex;
-
-  padding-bottom:16px;
-  width:100%;
-  align-items:center;
-}
 
 /*event image container*/
 .news-img{
@@ -255,7 +246,7 @@ padding-top:16px;
 /*"read more" text*/
 .news-link p{
   margin-top:8px;
-  color:lightblue;
+  color:#4e92df;
 }
 
 /*bottom story with different background*/
@@ -266,7 +257,7 @@ padding-top:16px;
   width:100%;
   align-items:center;
 }
-
+/*courses section*/
 .section3{
   display:flex;
   padding:32px 72px;
@@ -311,11 +302,29 @@ background-color:white;}
   display:flex;
   justify-content:center
 }
+/*Exhibit section*/
+.exhibit-story{
+  display:flex;
 
+  padding-bottom:16px;
+  width:100%;
+  align-items:center;
+}
+
+.exhibitfeed{
+  display:flex;
+  float:right;
+  flex-direction:column;
+  max-width:40%;
+padding-left:24px;
+width:523px;
+}
 video{
   width:100%;
   margin-left:24px;
 }
+
+/*footer*/
 
 footer p, footer li{
   color:#4A4A4A;
@@ -329,6 +338,27 @@ footer{
   justify-content:space-between;
   align-items:center;
   border-top:1px solid #D8D8D8;
+}
+
+@media only screen and (max-width:1250px){
+.news-img-mobile{
+  display:none;
+}
+.nav-mobile{
+  display:none;
+}
+.course-display-mobile{
+  display:none;
+}
+.section-title-mobile{
+  display:none;
+}
+.section4-title-mobile{
+  display:none;
+}
+.news-title-mobile{
+  display:none;
+}
 }
 
 @media only screen and (max-width: 844px) {
@@ -355,88 +385,284 @@ footer{
     width:auto;
     max-width:100%;
   }
-}
 
-
-@media only screen and (max-width: 844px) {
   .logo-name1, .logo-name2 {
     display: none;
   }
 
-}
-
-
-@media only screen and (max-width:844px){
   .section2{
     width:100%;
     flex-direction:column;
     padding:0;
 
   }
+
   .sec2-title h1{
     font-size:2rem;
     padding-top:32px;
     line-height:4rem;
   }
 
-}
-
-@media only screen and (max-width:844px){
   .newsfeed{
     max-width:100%;
     width:100%;
     padding:16px;
     margin:0;
   }
-}
 
-
-
-
-
-@media only screen and (max-width:844px){
   .news-img{
     display:none;
   }
-}
 
-@media only screen and (max-width:1024px){
-.news-img-mobile{
-  display:none;
-}
-}
-@media only screen and (max-width:844px){
-  .news-story, .news-story3, .news-img-mobile{
-    display:flex;
-    align-items:center;
-    padding-bottom:16px;
-    background-color:transparent;
-padding:0;
-margin:0;
-border:0;
-    width:100%;
-    flex-direction:column;
-  }
-}
-@media only screen and (max-width:844px){
-  .news-img-mobile{
-    width:100%;
-    margin-bottom:16px;
-  }
-}
-@media only screen and (max-width:844px){
-.news-story .captn, .news-story3 .captn{
-  padding-left:16px;
-}
-}
+    .news-story, .news-story3, .news-img-mobile{
+      display:flex;
+      align-items:center;
+      padding-bottom:16px;
+      background-color:transparent;
+      padding:0;
+      margin:0;
+      border:0;
+      width:100%;
+      flex-direction:column;
+    }
 
-@media only screen and (max-width:844px){
-  .section4{
-    width:100%;
-    padding:32px 0px;
+
+    .news-title-mobile{
+      display:none;
+    }
+
+    .news-img-mobile{
+      width:100%;
+      margin-bottom:16px;
+    }
+
+  .news-story .captn, .news-story3 .captn{
+    padding-left:16px;
   }
-  .exhibitfeed{
+
+  .section-title-mobile{
     display:none;
   }
 
+    .section4{
+      width:100%;
+      padding:32px 0px;
+    }
+
+    .exhibitfeed{
+      display:none;
+    }
+
+    .course-display-mobile{
+      display:none;
+    }
+
+    .section4-title-mobile{
+      display:none;
+    }
+
+  }
+
+@media only screen and (max-width:630px){
+  nav{
+    display:none;
+}
+
+  .section1{
+    width:100%;
+  }
+
+  .nav-mobile li{
+    display:inline-flex;
+  padding-left:40px;
+  justify-content:center;
+  color:#4A4A4A;
+
+  }
+  .nav-mobile{
+  display: flex;
+    width: 65%;
+    justify-content: space-between;
+}
+
+  header{
+    justify-content: center;
+    padding:0;
+    position:fixed;
+    width:100%;
+  }
+
+  .logo img{
+    padding-left:20px;
+  }
+
+  .sec1-title{
+    font-size:1.5rem;
+    padding-top:32px;
+  }
+
+  .sec1-subtitle{
+    font-size:.8rem;
+    padding-bottom:24px;
+  }
+
+  .caption{
+    padding:16px;
+  }
+
+  .button{
+    margin-bottom:32px;
+  }
+
+  .section2 .main-imgs img{
+    display:none;
+  }
+
+  .caption2{
+    display:none;
+  }
+
+.newsfeed{
+  display:flex;
+  float:right;
+  flex-direction:column;
+  max-width:95%;
+  border-bottom: 1px solid #D8D8D8;
+padding-top:15px;
+width:100%;
+padding-bottom:0px;
+}
+
+.news-title-mobile{
+  display:flex;
+}
+
+.news-title3{
+  display:none;
+}
+
+.news-img-mobile img{
+width:100%;
+float:left;
+}
+
+.news-story{
+  display:flex;
+  justify-content:Center;
+}
+
+.news-captn{
+  max-width:100%;
+  width:100%;
+padding-top:16px;
+padding-bottom:64px;
+line-height:.5;
+  }
+
+  .news-title-mobile{
+    font-size:1.5rem;
+}
+
+  .news-captn p{
+    font-weight:normal;
+  }
+
+  .news-link p{
+    color:#4e92df;
+}
+
+.section-title{
+  display:none;
+}
+
+.section-title-mobile{
+  display:flex;
+  font-size:1.2rem;
+}
+
+.courses-display{
+  display:none;
+}
+
+  .section3{
+    display:flex;
+    padding:32px 72px;
+    clear:both;
+    background-color:white;
+    flex-direction:column;
+    align-items:center;
+    border-bottom: 1px solid #D8D8D8;
+  }
+
+  .course-display-mobile{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    width:100%;
+  }
+
+.courses-area h2{
+  font-weight:600;
+  font-size:1.5rem;
+  letter-spacing:2px;
+  background-color:#D8D8D8;
+  padding-top:16px;
+  padding-bottom:24px;
+  padding-left:16px;
+  margin-bottom:8px;
+  width:100%;
+}
+
+.courses{
+  width:100%;
+  margin:16px 16px;
+  background-color:white;
+}
+
+.section4-title-mobile{
+  display:flex;
+  justify-content:center;
+  font-size:1.2rem;
+  padding-bottom:0;
+  padding-top:32px;
+}
+
+video{
+  margin:0 auto;
+  padding:0;
+}
+
+footer li{
+  display:none;
+  padding-top:16px;
+  margin:0;
+}
+
+footer p{
+  font-size:.7rem;
+}
+
+footer{
+  display:flex;
+  justify-content:center;
+  background-color:white;
+  height:64px;
+  padding:0;
+width:100%;
+  border:none;
+}
+}
+
+@media only screen and (max-width:449px){
+  .courses-area h2{
+    font-size:1.1rem;
+}
+
+.news-title-mobile{
+  display:flex;
+}
+
+.news-title3{
+  display:none;
+}
 }
