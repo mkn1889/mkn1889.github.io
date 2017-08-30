@@ -1,0 +1,28 @@
+body{
+  font-family:"Open Sans";
+}
+
+
+.jumbotron.jumbotron-bike{
+  background-image:url("../images/jumbotron-bike.jpg");
+
+}
+
+header h1{
+  font-family:"Monoton";
+  font-size:7.1rem;
+}
+
+header h1, header p{
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000,
+              -1px 1px 0 #000, 1px 1px 0 #000;
+              color:white;
+}
+
+.image-container{
+
+}
+
+.navbar-default .navbar-nav > .active > a
+
+.navbar-default .navbar-nav > .active > a:hover
