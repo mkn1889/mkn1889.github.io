@@ -82,19 +82,13 @@ opacity: 0.5;
     width: 159.6px;
 }
 
-.col-xs-12 {
-    width: 100%;
-    font-size: 23.8px;
-    font-weight: bold;
-    color: #339bd1;}
+
 
   .image-container img{
     opacity:0.5;
   }
 
-img{
-  width:100%;
-}
+
 
 h3{
   font-size:18.2px;
