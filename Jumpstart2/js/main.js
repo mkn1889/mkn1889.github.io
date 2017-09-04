@@ -9,16 +9,16 @@ $(document).ready(function(){
     pauseOnHover: false
   });
 
-  var ScrollDistance = 0;
+  var lastScrollTop = 0;
   $(window).scroll(function(){
-    var ScrollTop = $(this).ScrollTop();
-    if (ScrollTop - ScrollDistance > 50){
-      var navbarHeight = $('.navbar').css('height');
-      $('.navbar').animate({top: '-' + navbarHeight}, 150);
-      ScrollDistance = ScrollTop;
-    } else if (ScrollDistance - ScrollTop > 50) {
+    var scrollTop = $(this).scrollTop();
+    if (scrollTop - lastScrollTop > 50){
+      var navHeight = $('.navbar').css('height');
+      $('.navbar').animate({top: '-' + navHeight}, 150);
+      lastScrollTop = scrollTop;
+    } else if (lastScrollTop - scrollTop > 50) {
       $('.navbar').animate({top: '0px'}, 150);
-      ScrollDistance = ScrollTop;
+      lastScrollTop = scrollTop;
     }
   });
 });
