@@ -40,6 +40,8 @@ html{
   justify-content:center;
 }
 
+
+
 header{
   text-align:center;
 }
@@ -56,6 +58,10 @@ font-size: 21px;
 font-weight: 200;
 width: 51.3rem;
 text-align: center;
+color:white;
+text-shadow: -1px -1px 0 #000, 1px -1px 0 #000,
+            -1px 1px 0 #000, 1px 1px 0 #000;
+            color:white;
 }
 
 
